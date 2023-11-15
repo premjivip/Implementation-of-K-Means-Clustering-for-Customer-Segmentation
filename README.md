@@ -36,6 +36,7 @@ Evaluate the clustering results: Once convergence is reached, evaluate the quali
 
 Select the best clustering solution: If the evaluation metrics allow for it, you can compare the results of multiple clustering runs with different K values and select the one that best suits your requirements
 
+```
 ## Program:
 
 /*
@@ -90,6 +91,7 @@ plt.scatter(df4["Annual Income (k$)"],df4["Spending Score (1-100)"],c="magenta",
 plt.legend()
 plt.title("Customer Segmets")
 
+```
 
 ## Output:
 ### data.head() :
